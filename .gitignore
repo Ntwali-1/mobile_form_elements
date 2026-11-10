@@ -47,4 +47,8 @@ example
 .idea/
 *.swp
 *.swo
-config.bat
+
+# Local environment files; keep sanitized examples trackable
+.env
+.env.*
+!.env.example
